@@ -15,20 +15,11 @@
 
 Welcome! This repository showcases a robust, end-to-end data science workflow for analyzing global earthquake data. If you're looking for a project that combines real-world data, advanced analytics, and modern Python visualization, you're in the right place.
 
-## 🔄 Refactorización del Código de Visualización
-
-**¡NUEVO!** El código de visualización ha sido completamente refactorizado en un módulo reutilizable llamado `viz_utils.py`. Esta refactorización permite:
-
-- Crear visualizaciones con un estilo visual consistente
-- Reducir la duplicación de código en todo el proyecto
-- Obtener gráficos profesionales con una sola línea de código
-- Mantener los mismos docstrings informativos del código original
-
-<details>
-<summary>📋 Table of Contents</summary>
 <br>
-  
+
+# 📋 Table of Contents
 - [🌎 Earthquake Data Analysis](#-earthquake-data-analysis)
+- [📋 Table of Contents](#-table-of-contents)
   - [🚀 Project Highlights](#-project-highlights)
   - [📁 Files](#-files)
   - [🛠️ Requirements](#️-requirements)
@@ -37,7 +28,9 @@ Welcome! This repository showcases a robust, end-to-end data science workflow fo
   - [💡 Insights](#-insights)
   - [📊 Visual Showcase](#-visual-showcase)
   - [🤝 About the Author](#-about-the-author)
-</details>
+  - [📜 License](#-license)
+
+<br>
 
 ## 🚀 Project Highlights
 - **Data Cleaning & Preprocessing:**
@@ -92,30 +85,38 @@ pip install -r requirements.txt
 ## 📊 Visual Showcase
 
 <p align="center">
-  <img src="magnitude_distribution.png" alt="Magnitude Distribution" width="400"/>
-  <img src="depth_distribution.png" alt="Depth Distribution" width="400"/>
+  <a href="https://htmlpreview.github.io/?https://github.com/anverpy/earthquakes/blob/main/earthquake_heatmap.html" target="_blank">
+    <img src="earthquake_heatmap.png" alt="Earthquake Heatmap (Interactive)" width="600"/>
+    <br>
+    <i>👆 Click to view the interactive heatmap (Earthquake Heatmap)</i>
+  </a>
 </p>
 
 <p align="center">
-  <img src="magnitude_vs_depth_by_event_type.png" alt="Magnitude vs Depth" width="600"/>
+  <a href="https://htmlpreview.github.io/?https://github.com/anverpy/earthquakes/blob/main/event_type_distribution_plotly.html" target="_blank">
+    <img src="event_type_distribution.png" alt="Event Type Distribution (Interactive)" width="600"/>
+    <br>
+    <i>👆 Click to view the interactive visualization (Event Type Distribution)</i>
+  </a>
 </p>
 
+
 <p align="center">
-  <i>Interactive visualizations and more charts available in the notebook!</i>
+  <i>More charts available in the notebook!</i>
 </p>
 
 ## 🤝 About the Author
 
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/48081050" alt="GitHub Avatar" width="100" style="border-radius:50%"/>
-</p>
-
 Andrés V. — Data Science & Analytics | 2025
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen?style=flat&logo=github)](https://github.com/)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:example@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/andresvergarav/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen?style=flat&logo=github)](https://github.com/anverpy)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:andresw206@gmail.com)
 
 ---
 
 *If you're interested in data-driven problem solving or collab, feel free to connect or reach out!* 🚀
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. This means you can freely use, modify, distribute, and build upon this work for both personal and commercial purposes, as long as you provide appropriate attribution.
