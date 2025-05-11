@@ -2,14 +2,14 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat&logo=python)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat&logo=jupyter)](https://jupyter.org/)
-[![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen?style=flat)](LICENSE)
+[![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen?style=flat)](LICENSE.md)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-blue?style=flat&logo=pandas)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-blue?style=flat&logo=python)](https://matplotlib.org/)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-latest-orange?style=flat&logo=scikit-learn)](https://scikit-learn.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-Interactive-informational?style=flat&logo=plotly)](https://plotly.com/)
 
 <p align="center">
-  <img src="earthquake_heatmap.png" width="1000"/>
+  <img src="Graphics/earthquake_heatmap.png" width="1000"/>
 
 </p>
 
@@ -52,7 +52,8 @@ Welcome! This repository showcases a robust, end-to-end data science workflow fo
 - `notebook.ipynb`: Main analysis notebook (open with VS Code or Jupyter)
 - `dataframe.csv`: Raw earthquake dataset
 - `cleaned_dataframe.csv`: Cleaned and processed dataset
-- `*.png`, `*.html`: Generated visualizations
+- `*.html`: Interactive visualizations
+- `Graphics/`: Folder containing all static visualizations (PNG files)
 
 ## 🛠️ Requirements
 - Python 3.8+
@@ -86,7 +87,7 @@ pip install -r requirements.txt
 
 <p align="center">
   <a href="earthquake_heatmap.html" download>
-    <img src="earthquake_heatmap.png" alt="Earthquake Heatmap (Interactive)" width="600"/>
+    <img src="Graphics/earthquake_heatmap.png" alt="Earthquake Heatmap (Interactive)" width="600"/>
     <br>
     <i>👆 Click to download the interactive heatmap (Earthquake Heatmap)</i>
   </a>
@@ -94,7 +95,7 @@ pip install -r requirements.txt
 
 <p align="center">
   <a href="event_type_distribution_plotly.html" download>
-    <img src="event_type_distribution.png" alt="Event Type Distribution (Interactive)" width="600"/>
+    <img src="Graphics/event_type_distribution.png" alt="Event Type Distribution (Interactive)" width="600"/>
     <br>
     <i>👆 Click to download the interactive visualization (Event Type Distribution)</i>
   </a>
