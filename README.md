@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ## 📊 Visual Showcase
 
 <p align="center">
-  <a href="https://github.com/anverpy/earthquakes/raw/main/earthquake_heatmap.html" download>
+  <a href="earthquake_heatmap.html" download>
     <img src="earthquake_heatmap.png" alt="Earthquake Heatmap (Interactive)" width="600"/>
     <br>
     <i>👆 Click to download the interactive heatmap (Earthquake Heatmap)</i>
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 </p>
 
 <p align="center">
-  <a href="https://github.com/anverpy/earthquakes/raw/main/event_type_distribution_plotly.html" download>
+  <a href="event_type_distribution_plotly.html" download>
     <img src="event_type_distribution.png" alt="Event Type Distribution (Interactive)" width="600"/>
     <br>
     <i>👆 Click to download the interactive visualization (Event Type Distribution)</i>
