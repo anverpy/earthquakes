@@ -15,6 +15,8 @@
 
 Welcome! This repository showcases a robust, end-to-end data science workflow for analyzing global earthquake data. If you're looking for a project that combines real-world data, advanced analytics, and modern Python visualization, you're in the right place.
 
+> **📱 Interactive Dashboard Available!**<br>This analysis powers [Earthquake Analysis Web App](https://github.com/anverpy/scraping-and-data-analysis) , which provides **real-time visualization** and monitoring of seismic events.<br>Check it out to see this analysis in action!
+
 <br>
 
 # 📋 Table of Contents
@@ -27,6 +29,8 @@ Welcome! This repository showcases a robust, end-to-end data science workflow fo
   - [🎨 Visual Outputs](#-visual-outputs)
   - [💡 Insights](#-insights)
   - [📊 Visual Showcase](#-visual-showcase)
+  - [🔄 Related Projects](#-related-projects)
+    - [➡️🌐 Earthquake Analysis Dashboard](#️-earthquake-analysis-dashboard)
   - [🤝 About the Author](#-about-the-author)
   - [📜 License](#-license)
 
@@ -101,10 +105,25 @@ pip install -r requirements.txt
   </a>
 </p>
 
-
 <p align="center">
   <i>More charts available in the notebook!</i>
 </p>
+
+## 🔄 Related Projects
+### ➡️[🌐 Earthquake Analysis Dashboard](https://github.com/anverpy/scraping-and-data-analysis)
+
+<p align="center">
+  <img src="https://i.imgur.com/oHuO5Mw.png" alt="Earthquake Dashboard Banner" width="800"/>
+</p>
+
+The Earthquake Analysis Dashboard is a Streamlit-based web application that:
+
+- Provides an **interactive interface** to explore the data processed in this notebook
+- Features real-time **filtering by magnitude, depth, location, and time**
+- Includes advanced visualizations including **interactive maps and clustering analysis**
+- Allows users to perform their own analysis without coding knowledge
+
+The dashboard uses the data processing pipeline and visualization techniques developed in this project, with additional real-time capabilities.
 
 ## 🤝 About the Author
 
